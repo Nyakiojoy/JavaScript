@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Async Event Page</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Event List</h1>
+    <div id="filter-options">
+      <label for="filter-date">Filter by Date:</label>
+      <input type="date" id="filter-date">
+
+      <label for="filter-location">Filter by Location:</label>
+      <input type="text" id="filter-location" placeholder="Enter location">
+
+      <button id="apply-filters">Apply Filters</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="event-list">
+    </section>
+
+    <aside id="favorites">
+      <h3>Your Favorites</h3>
+      <ul id="favorites-list">
+      </ul>
+    </aside>
+  </main>
+
+  <script src="./index.js"></script>
+</body>
+</html>
